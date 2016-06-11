@@ -1,0 +1,32 @@
+{
+  "name": "rtc-mpc",
+  "version": "1.0.0",
+  "description": "A webrtc jam session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/flyswatter/rtc-mpc.git"
+  },
+  "keywords": [
+    "web",
+    "rtc",
+    "audio",
+    "rpc"
+  ],
+  "author": "Dan Finlay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flyswatter/rtc-mpc/issues"
+  },
+  "homepage": "https://github.com/flyswatter/rtc-mpc#readme",
+  "dependencies": {
+    "nets": "^3.2.0",
+    "rtc-data-stream": "^1.0.2",
+    "rtc-quickconnect": "^5.5.1",
+    "webaudio": "^2.0.0",
+    "yo-yo": "^1.2.1"
+  }
+}
